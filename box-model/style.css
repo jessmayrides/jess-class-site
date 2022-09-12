@@ -1,0 +1,39 @@
+* {
+    box-sizing:border-box;
+}
+
+@font-face {
+    font-family: 'dm_serif_displayitalic', monospace;
+    src: url('dmserifdisplay-italic-webfont.woff2') format('woff2'),
+         url('dmserifdisplay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin:0;
+    background-color:hotpink;
+}
+
+.content {
+    background-color:lightpink;
+    color:azure;
+    width:200px;
+    height:200px;
+    padding:30px;
+    border:10px solid chartreuse;
+    margin: 50px auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+.border {
+    background-color:lightpink;
+    color:azure;
+    width:200px;
+    height:200px;
+    padding:30px;
+    border:10px solid chartreuse;
+    margin:50px;
+    box-sizing:border-box;
+}

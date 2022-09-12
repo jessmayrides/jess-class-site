@@ -1,0 +1,39 @@
+h1{
+    text-align:center;
+    text-decoration:overline lightcoral;
+    color:lightgoldenrodyellow;
+    text-shadow: 2px 2px black;
+}
+
+h2{
+    text-align:center;
+    text-decoration: overline underline light;
+    color:lightgoldenrodyellow;
+    text-shadow: 2px 2px black;
+}
+
+p{
+    margin-top: 100px;
+    text-align:justify;
+    text-transform: lowercase;
+    text-shadow: 1px 1px blue;
+    color:black;
+    font-size:large;
+}
+
+ul{
+    text-align:center;
+    text-emphasis: triangle red;
+    color:black;
+}
+
+
+body{
+    background-color: rosybrown;
+    background-image: url("selfie.jpg");
+    background-size: 150px;
+    background-origin:content-box;
+    background-repeat:repeat-x;
+    background-position: top left;
+    margin-top:20px;
+}

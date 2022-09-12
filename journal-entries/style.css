@@ -1,0 +1,15 @@
+body {
+   text-align: center;
+   margin:100px;
+   background-color:lightgoldenrodyellow;
+}
+
+.test {
+    color:red;
+    background-color: darkgrey;
+}
+
+.sept{
+    color:black;
+    background-color: aquamarine;
+}

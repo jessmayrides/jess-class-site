@@ -1,0 +1,64 @@
+
+
+h1{
+    text-align:center;
+    background-image: url(gooseheader.jpeg);
+    background-repeat: repeat-x;
+}
+
+h2{
+    text-align:center;
+    background-image: url(gooseheader.jpeg);
+    background-repeat: repeat-x;
+}
+
+.maze{
+    height:100vh;
+    width:100vw;
+    background:lightgreen;
+}
+
+.entrance{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    text-align:center;
+    gap:20px;
+}
+
+.entrance1{
+    display:block;
+    background:greenyellow;
+    border: 5px dotted pink;
+    text-align:center;
+    height:500px;
+    width:200px;
+}
+
+.entrance2{
+    background: lightseagreen;
+    border: 4px solid darkgreen;
+    height:300px;
+    width:250px;
+}
+
+.entrance3{
+    background:olive;
+    height:500px;
+    width:500px;
+}
+
+.lower{
+    display:flex;
+    flex-direction:row;
+    align-content:space-between;
+    color:chocolate;
+}
+
+
+.{
+    background:blue;
+    height:500px;
+    width:200px;
+}
+

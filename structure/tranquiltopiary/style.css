@@ -1,0 +1,22 @@
+h1{
+    text-align:center;
+    color:white;
+}
+
+h2{
+    text-align:center;
+    color:white;
+}
+
+p{
+    text-align:center;
+    color:white;
+}
+
+body{
+    background-image: url(topiarycopy.jpeg);
+    height:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}

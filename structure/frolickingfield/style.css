@@ -1,0 +1,22 @@
+h1{
+    text-align:center;
+    color:black;
+}
+
+h2{
+    text-align:center;
+    color:black;
+}
+
+p{
+    text-align:center;
+    color:black;
+}
+
+body{
+    background-image: url(field.jpeg);
+    height:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}

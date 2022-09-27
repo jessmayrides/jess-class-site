@@ -1,7 +1,8 @@
-body {
-   text-align: center;
-   margin:100px;
-   background-color:lightgoldenrodyellow;
+html{
+    background-image:url(journalbg.JPG);
+    background-size:cover;
+    min-height:100vh;
+    background-position:center;
 }
 
 .test {
@@ -17,4 +18,9 @@ body {
 .computer{
     color:tomato;
     background-color:indigo;
+}
+
+.afriend{
+    color:cornsilk;
+    background-color:darkgreen;
 }

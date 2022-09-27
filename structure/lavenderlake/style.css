@@ -1,3 +1,10 @@
+html{
+    background-image: url(lake.jpeg);
+    background-size:cover;
+    min-height:100vh;
+    background-position:center;
+}
+
 h1{
     text-align:center;
     color:white;
@@ -8,15 +15,8 @@ h2{
     color:white;
 }
 
-p{
+body{
     text-align:center;
     color:white;
 }
 
-body{
-    background-image: url(lake.jpeg);
-    height:100%;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-}

@@ -24,3 +24,8 @@ html{
     color:cornsilk;
     background-color:darkgreen;
 }
+
+body{
+    text-align:center;
+    margin:50px;
+}

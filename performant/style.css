@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    margin:0;
+}
+
+p{
+    flex-shrink:1;
+    overflow:hidden;
+    background-color:#CCC;
+    padding: .25rem;
+}
+
+p{
+    animation: margin-down 1s infinite alternate linear;
+}
+
+@keyframes margin-down{
+    from {
+        margin-top:0;
+    }
+    to {
+        margin-top: 300px;
+    }
+}
+
+@keyframes translate-down{
+    from {
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(300px);
+    }
+}

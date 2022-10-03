@@ -5,6 +5,10 @@ html{
     background-position:center;
 }
 
+p{
+    color:white;
+}
+
 .test {
     color:red;
     background-color: darkgrey;

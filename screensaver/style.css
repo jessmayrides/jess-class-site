@@ -1,0 +1,55 @@
+html{
+    width:100vw;
+    height:100vh;
+    align-items:center;
+    animation: sunset 20s infinite alternate;
+}
+
+ body{
+    background-image: url(sky.png);
+    background-size:cover;
+    min-height:100vh;
+    align-items:center;
+    margin:0;
+    animation: spin 20s infinite linear;
+} 
+
+.window{
+    background-image: url(window.png);
+    background-position:center;
+    background-size:cover;
+    min-height:100vh;
+}
+
+@keyframes sunset{
+    0%{
+        background-color:lightskyblue;
+    }
+
+    25%{
+        background-color:lightgreen;
+    }
+
+    50%{
+        background-color:orange;
+    }
+    75%{
+        background-color:orangered;
+    }
+    80%{
+        background-color:crimson
+    }
+
+    100%{
+        background-color:darkblue
+    }
+}
+
+@keyframes spin{
+    0%{
+        transform:rotate(0);
+    }
+    100%{
+        transform:rotate(360deg);   
+    }
+}

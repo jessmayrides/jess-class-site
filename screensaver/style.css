@@ -6,19 +6,19 @@ html{
 }
 
  body{
-    background-image: url(sky.png);
+    background-image: url(window.png);
     background-size:cover;
     min-height:100vh;
     align-items:center;
     margin:0;
-    animation: spin 20s infinite linear;
 } 
 
-.window{
-    background-image: url(window.png);
-    background-position:center;
+.sky{
+    background-image: url(sky.png);
     background-size:cover;
-    min-height:100vh;
+    position:fixed;
+    z-index:-1;
+    animation: spin 20s infinite linear;
 }
 
 @keyframes sunset{

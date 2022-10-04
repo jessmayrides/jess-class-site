@@ -2,7 +2,7 @@ html{
     width:100vw;
     height:100vh;
     align-items:center;
-    animation: sunset 20s infinite alternate;
+    animation: sunset 10s infinite alternate;
 }
 
  body{
@@ -16,6 +16,8 @@ html{
 .sky{
     background-image: url(sky.png);
     background-size:cover;
+    height:1700px;
+    width:1700px;
     position:fixed;
     z-index:-1;
     animation: spin 20s infinite linear;

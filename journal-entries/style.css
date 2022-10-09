@@ -29,6 +29,11 @@ p{
     background-color:darkgreen;
 }
 
+.scrabble{
+    background-color:violet;
+    color:royalblue;
+}
+
 body{
     text-align:center;
     margin:50px;

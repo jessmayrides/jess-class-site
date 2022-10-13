@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:skyblue;
+    margin:0;
+    transition:background-color 2s;
+}
+
+.goodforest{
+    display:flex;
+    max-width:100%;
+    text-align:end;
+}
+
+.forest{
+    max-width:100%;
+}
+
+.deer{
+    max-width:100%;
+    position:fixed;
+    z-index: 1;
+}
+
+.forest2{
+    top:0;
+    left:0;
+    position:fixed;
+    width:100%;
+    height:100%;
+    opacity:0;
+    text-align:end;
+}
+
+.deerlooking{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+.spooky{
+    top:0;
+    left:0;
+    position:fixed;
+    width:100%;
+    height:100%;
+    opacity:0;
+    color:red;
+    text-align:end;
+}
+
+.demon{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+
+@media screen and (max-width:800px){
+    body{
+        background-color:darkorange;
+    }
+    .goodforest{
+        opacity:0;
+    }
+
+    .forest2{
+        opacity:1;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color:black;
+    }
+    .forest2{
+        opacity:0;
+    }
+
+    .spooky{
+        opacity:1;
+    }
+}

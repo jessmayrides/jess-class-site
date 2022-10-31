@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color:black;
+}
+
+h1{
+    text-align:center;
+    color:whitesmoke;
+    font-size:500%;
+}
+
+h2{
+    text-align:center;
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    text-align:center;
+    color:whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+button{
+    background: transparent;
+}
+
+.teethrow1{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top:100px;
+}
+
+p{
+    opacity:0;
+    transition: opacity 1s;
+    color:whitesmoke;
+}
+
+
+.teethrow2{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin-top:100px;
+}
+
+img{
+    align-items: center;
+}
+
+.draggable{
+    cursor:grab;
+}
+
+body{
+    margin:10px;
+    transition: background-color .5s;
+}
+

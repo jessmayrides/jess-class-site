@@ -9,6 +9,11 @@ p{
     color:white;
 }
 
+.book{
+    color:lawngreen;
+    background-color:black;
+}
+
 .test {
     color:red;
     background-color: darkgrey;

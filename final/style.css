@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url(bigmap.png);
+    background-size:auto 100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:100%;
+}
+
+body{
+    height:100%;
+}
+
+h1{
+    color:black;
+    text-align:left;
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h3{
+    color:black;
+    text-align:left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.click1{
+    display:flex;
+    position:absolute;
+    cursor:pointer;
+    height:150px;
+    width:150px;
+    opacity:50%;
+    left:440px;
+    top:350px;
+    background-color:brown;
+}
+
+.click2{
+    display:flex;
+    position:absolute;
+    cursor:pointer;
+    height:100px;
+    width:100px;
+    right:525px;
+    top:45px;
+    opacity:50%;
+    background-color:brown;
+}
+
+.click3{
+    display:flex;
+    position:absolute;
+    cursor:pointer;
+    height:50px;
+    width:50px;
+    right:425px;
+    top:340px;
+    opacity:50%;
+    background-color:brown;
+}
+
+.click4{
+    display:flex;
+    position:absolute;
+    cursor:pointer;
+    height:50px;
+    width:50px;
+    opacity:50%;
+    left:450px;
+    bottom:2px;
+    background-color:brown;
+}
+
+
+
+

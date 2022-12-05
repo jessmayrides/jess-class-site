@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url(lansdowne.png);
+    background-size:auto 100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:100%;
+}
+
+.nav{
+    display:flex;
+    position:fixed;
+    right:10px;
+    bottom:10px;
+}
+
+
+.click1{
+    display:flex;
+    position:absolute;
+    cursor:pointer;
+    height:50px;
+    width:50px;
+    opacity:50%;
+    left:760px;
+    top:290px;
+    background-color:brown;
+}
+
+.click2{
+    display:flex;
+    position:absolute;
+    cursor:pointer;
+    height:50px;
+    width:50px;
+    opacity:50%;
+    left:525px;
+    top:400px;
+    background-color:brown;
+}
+
+.click3{
+    display:flex;
+    position:absolute;
+    cursor:pointer;
+    height:50px;
+    width:50px;
+    opacity:50%;
+    right:635px;
+    top:180px;
+    background-color:brown;
+}
+
+.click4{
+    display:flex;
+    position:absolute;
+    cursor:pointer;
+    height:50px;
+    width:50px;
+    opacity:50%;
+    right:590px;
+    top:80px;
+    background-color:brown;
+}

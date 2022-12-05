@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+
+html{
+    background-image: url(cobblestonelane.png);
+    background-size:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:100%;
+}
+
+.nav{
+    display:flex;
+    position:fixed;
+    right:10px;
+    bottom:10px;
+}
+
+
+h1{
+    color:white;
+    text-align:justify;
+}
+
+h2{
+    color:white;
+    text-align:justify;
+}
+
+p{
+    color:white;
+}
+
+ul{
+    color:white;
+}

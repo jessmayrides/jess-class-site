@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <head>
+        <title>telford</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+
+    </head>
+
+<body>
+
+    <a href="../index.html" style="color:white">back</a>
+
+    <div class="row">
+        <div class="column">
+          <img src="cousins1.png">
+          <img src="cousins2.png">
+        </div>
+
+        <div class="column">
+          <img src="cousins3.png">
+          <img src="cousins4.png">
+        </div>
+
+        <div class="column">
+          <img src="cousins5.png">
+          <img src="cousins10.png">
+        </div>
+
+        <div class="column">
+          <img src="cousins7.png">
+          <img src="cousins8.png">
+        </div>
+
+        <div class="column">
+            <img src="cousins9.png">
+            <img src="cousins6.png">
+          </div>
+
+    </div>
+
+    <video autoplay loop id="myVideo">
+        <source src="wii.mp4" type="video/mp4">
+    </video>
+
+    <div class="content">
+        <h1>wii menu </h1>
+        <p>video games were how my cousins and i bonded. even today when we get together with family we play the same games we played a decade ago. (middle bottom pic is us this past thanksgiving)</p>
+        <button id="myBtn" onclick="myFunction()">pause</button>
+    </div>
+
+    <script>
+        var video= document.getElementById("myVideo");
+        var btn= document.getElementById("myBtn");
+        function myFunction() {
+            if(video.paused) {
+                video.play();
+                btn.innerHTML = "pause";
+            } else{
+                video.pause();
+                btn.innerHTML = "play";
+            }
+        }
+    </script>
+
+  
+
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="scripts.js"></script>
+
+</body>
+</html>

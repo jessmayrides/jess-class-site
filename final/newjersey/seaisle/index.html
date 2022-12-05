@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <title>sea isle city, nj</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <a href="../index.html" style="color:white">back</a>
+
+    <div class="row">
+        <div class="column">
+          <img src="beach1.png" style="width:300px">
+          <img src="beach2.png" style="width:300px">
+          <img src="beach3.png" style="width:300px">
+          <img src="beach4.png" style="width:300px">
+        </div>
+    </div>
+
+    <video autoplay loop id="myVideo">
+        <source src="nj.mp4" type="video/mp4">
+    </video>
+
+    <div class="content">
+        <h1>sea isle city, new jersey </h1>
+        <p>my family and i went here on summer vacations for a week or two from when i was born until i was 11. we would visit with my cousins, play on the beach all day and go to the boardwalk. this place is extremely nostaglic to me. we had to stop going once the house my grandparents rented changed ownership after hurricane sandy. we haven't been back since. (video credit to Tom Carp on YouTube) </p>
+        <button id="myBtn" onclick="myFunction()">pause</button>
+    </div>
+
+    <script>
+        var video= document.getElementById("myVideo");
+        var btn= document.getElementById("myBtn");
+        function myFunction() {
+            if(video.paused) {
+                video.play();
+                btn.innerHTML = "pause";
+            } else{
+                video.pause();
+                btn.innerHTML = "play";
+            }
+        }
+    </script>
+
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="scripts.js"></script>
+
+</body>
+</html>

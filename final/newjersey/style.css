@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url(seaisle.png);
+    background-size:auto 100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:100%;
+}
+
+h1, h2{
+    font-size:large;
+}
+
+.nav{
+    display:flex;
+    position:fixed;
+    right:10px;
+    bottom:10px;
+}
+
+.click1{
+    display:flex;
+    position:absolute;
+    cursor:pointer;
+    height:100px;
+    width:100px;
+    opacity:50%;
+    right:650px;
+    top:350px;
+    background-color:brown;
+}
+
+
+

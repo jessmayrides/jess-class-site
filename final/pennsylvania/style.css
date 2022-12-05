@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url(pa.png);
+    background-size:auto 100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:100%;
+}
+
+h2{
+    font-size:large;
+}
+
+nav{
+    display:flex;
+    position:fixed;
+    right:10px;
+    bottom:10px;
+}
+
+.click1{
+    display:flex;
+    position:absolute;
+    cursor:pointer;
+    height:200px;
+    width:200px;
+    right:600px;
+    top:200px;
+    opacity:50%;
+    background-color:brown;
+}
+

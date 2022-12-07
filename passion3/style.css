@@ -12,6 +12,16 @@ h2{
     text-shadow: 2px 2px black;
 }
 
+body{
+    background-color: rosybrown;
+    background-image: url("selfie.jpg");
+    background-size: 150px;
+    background-origin:content-box;
+    background-repeat:repeat-x;
+    background-position: top left;
+    margin-top:20px;
+}
+
 p{
     margin-top: 100px;
     text-align:justify;
@@ -28,12 +38,3 @@ ul{
 }
 
 
-body{
-    background-color: rosybrown;
-    background-image: url("selfie.jpg");
-    background-size: 150px;
-    background-origin:content-box;
-    background-repeat:repeat-x;
-    background-position: top left;
-    margin-top:20px;
-}
